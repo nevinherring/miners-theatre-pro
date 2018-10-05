@@ -35,7 +35,7 @@ body {
 }
 
 #gallery {
-    height: 600px;
+    height: 610px;
     background-color: #ABB7B7;
     padding-top: 1em;
 }
@@ -154,11 +154,19 @@ footer {
 
 
      @media (max-width: 575.98px) {
-
+       #gallery {
+           height: 2350px;
+       }
     }
 
     @media (max-width: 551px){
 
+    }
+
+    @media (max-width: 515px){
+      #gallery {
+          height: 2150px;
+      }
     }
 
     @media (max-width: 477px){
@@ -171,33 +179,14 @@ footer {
       }
     }
 
-
     @media (max-width: 451px) {
 
+    }
 
-        #hero h1 {
-
-        }
-
-
-        #hero h3{
-
-        }
-
-       #contact{
-
-       }
-
-        #about{
-
-        }
-
-        #about img{
-
-        }
-         #gallery {
-
-        }
+    @media (max-width: 430px) {
+      #gallery {
+          height: 1800px;
+      }
     }
 
     @media (max-width: 415px) {
@@ -205,4 +194,10 @@ footer {
 
         }
 
+    }
+
+    @media (max-width: 400px) {
+      #gallery {
+          height: 1700px;
+      }
     }
