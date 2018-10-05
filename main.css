@@ -239,6 +239,10 @@ footer {
           height: 1700px;
       }
 
+      #events {
+        height: 550px;
+      }
+
       #blog {
         height: 600px;
         padding-top: 1em;
