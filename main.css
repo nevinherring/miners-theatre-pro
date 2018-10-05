@@ -11,16 +11,15 @@ body {
     background-size: cover;
     background-blend-mode: multiply;
     padding-top: 16em;
-    /* padding-left: 15em; */
+    text-align: center;
 }
 
 #hero h1 {
     font-weight: 300;
-    text-align: center;
     font-size: 6.5em;
     color: #fff;
-    /* border: 5px solid #fff; */
-    /* display: inline; */
+    border: 5px solid #fff;
+    display: inline;
 }
 
 #about {
@@ -28,15 +27,11 @@ body {
     font-weight: 100;
     color: #013243;
     background-color: #ECECEC;
+    padding-top: 4em;
 }
 
-#about h2 {
-    text-align: center;
-
-}
-
-#about img {
-    height: 450px;
+#about .about-right {
+  padding-top: 5em;
 }
 
 #gallery {
@@ -58,13 +53,12 @@ body {
 #contact {
     height: 600px;
     background-color: #ABB7B7;
-    padding-top: 5%;
 }
 footer {
-    height: 300px;
+    height: 15em;
     background-color: #013243;
     color: #C5EFF7;
-    padding-top: 10em;
+    padding-top: 13em;
 }
 
     @media (min-width: 1200px) {
@@ -83,9 +77,7 @@ footer {
     }
 
     @media(max-width: 1240px){
-        #about img {
-            height: 375px;
-        }
+
     }
 
 
@@ -94,15 +86,15 @@ footer {
     }
 
     @media (max-width: 991px){
+      #hero h1 {
+          font-size: 5em;
+      }
 
         #about {
-            height: 1200px;
+          height: 1050px;
         }
 
-        #about img {
-            padding: 5% 0 0 0;
-            height: 500px;
-        }
+
 
         #gallery {
             height: 950px;
@@ -117,8 +109,12 @@ footer {
     }
 
     @media (max-width: 767px) {
-        #about img{
-            height: 375px;
+        #hero h1 {
+          font-size: 4em;
+        }
+
+        #about {
+          height: 900px;
         }
 
         #gallery {
@@ -134,17 +130,15 @@ footer {
 
 
         #about {
-            height: 1000px;
+
         }
 
         #about img {
-            height: 350px;
-            margin: 5%;
+
         }
 
         #gallery {
-            height: 1400px;
-            margin: auto;
+
         }
 
     }
@@ -163,65 +157,52 @@ footer {
 
     }
 
-    @media (max-width: 550px){
-        #about img{
-            height: 300px;
-        }
+    @media (max-width: 551px){
 
-        #hero{
-            padding-top: 30%;
-        }
-
-        #hero h1 {
-            font-size: 6em;
-        }
     }
+
+    @media (max-width: 477px){
+      #hero h1 {
+        font-size: 3em;
+      }
+
+      #about {
+        height: 825px;
+      }
+    }
+
 
     @media (max-width: 451px) {
 
 
         #hero h1 {
-            padding-top: 5%;
+
         }
 
 
         #hero h3{
-            padding-top: 5%;
+
         }
 
        #contact{
-           height: 700px;
-           padding-top: 2em;
-           padding-left: 0;
+
        }
 
         #about{
-            height: 800px;
+
         }
 
         #about img{
-            height: 225px;
-            padding-top: 5%;
-            padding-left: 1%;
+
         }
          #gallery {
-            height: 1200px;
+
         }
-
-
-
     }
 
     @media (max-width: 415px) {
-
-
-
         #gallery {
-            padding: 2.5em;
-        }
 
-        #gallery {
-            height: 600px;
         }
 
     }
