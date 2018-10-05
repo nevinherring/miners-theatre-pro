@@ -1,0 +1,227 @@
+body {
+   font-weight: 300;
+   font-family: 'Lato', sans-serif;
+}
+
+#hero {
+    background-image: url("img/chairs-behind.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-top: 16em;
+    /* padding-left: 15em; */
+}
+
+#hero h1 {
+    font-weight: 300;
+    text-align: center;
+    font-size: 6.5em;
+    color: #fff;
+    /* border: 5px solid #fff; */
+    /* display: inline; */
+}
+
+#about {
+    height: 600px;
+    font-weight: 100;
+    color: #013243;
+    background-color: #ECECEC;
+}
+
+#about h2 {
+    text-align: center;
+
+}
+
+#about img {
+    height: 450px;
+}
+
+#gallery {
+    height: 600px;
+    background-color: #ABB7B7;
+    padding-top: 1em;
+}
+
+#gallery img {
+    padding-top: 1em;
+}
+
+#events {
+    height: 450px;
+    background-color: #ECECEC;
+    padding-top: 3em;
+}
+
+#contact {
+    height: 600px;
+    background-color: #ABB7B7;
+    padding-top: 5%;
+}
+footer {
+    height: 300px;
+    background-color: #013243;
+    color: #C5EFF7;
+    padding-top: 10em;
+}
+
+    @media (min-width: 1200px) {
+        nav .nav-item:hover {
+            border-bottom: #013243 2px solid;
+        }
+     }
+
+     @media (max-width: 1411px) {
+
+    }
+
+
+    @media (max-width: 1367px) {
+
+    }
+
+    @media(max-width: 1240px){
+        #about img {
+            height: 375px;
+        }
+    }
+
+
+    @media (max-width: 1199px) {
+
+    }
+
+    @media (max-width: 991px){
+
+        #about {
+            height: 1200px;
+        }
+
+        #about img {
+            padding: 5% 0 0 0;
+            height: 500px;
+        }
+
+        #gallery {
+            height: 950px;
+        }
+
+        #contact{
+            height: 900px;
+        }
+
+
+
+    }
+
+    @media (max-width: 767px) {
+        #about img{
+            height: 375px;
+        }
+
+        #gallery {
+            height: 2300px;
+        }
+    }
+
+    @media (max-width: 690px) {
+
+    }
+
+    @media (max-width: 647px) {
+
+
+        #about {
+            height: 1000px;
+        }
+
+        #about img {
+            height: 350px;
+            margin: 5%;
+        }
+
+        #gallery {
+            height: 1400px;
+            margin: auto;
+        }
+
+    }
+
+    @media (max-width: 610px){
+
+    }
+
+
+    @media (max-width: 583px) {
+
+    }
+
+
+     @media (max-width: 575.98px) {
+
+    }
+
+    @media (max-width: 550px){
+        #about img{
+            height: 300px;
+        }
+
+        #hero{
+            padding-top: 30%;
+        }
+
+        #hero h1 {
+            font-size: 6em;
+        }
+    }
+
+    @media (max-width: 451px) {
+
+
+        #hero h1 {
+            padding-top: 5%;
+        }
+
+
+        #hero h3{
+            padding-top: 5%;
+        }
+
+       #contact{
+           height: 700px;
+           padding-top: 2em;
+           padding-left: 0;
+       }
+
+        #about{
+            height: 800px;
+        }
+
+        #about img{
+            height: 225px;
+            padding-top: 5%;
+            padding-left: 1%;
+        }
+         #gallery {
+            height: 1200px;
+        }
+
+
+
+    }
+
+    @media (max-width: 415px) {
+
+
+
+        #gallery {
+            padding: 2.5em;
+        }
+
+        #gallery {
+            height: 600px;
+        }
+
+    }
