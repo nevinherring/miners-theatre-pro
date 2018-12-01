@@ -45,9 +45,10 @@ body {
 }
 
 #events {
-    height: 350px;
+    height: 500px;
     background-color: #e8ecf1;
     padding-top: 3em;
+    width: 100%;
 }
 
 #events h2 {
@@ -112,6 +113,10 @@ footer {
             height: 950px;
         }
 
+        #events {
+            height: 600px;
+        }
+
         #contact{
             height: 900px;
         }
@@ -135,7 +140,7 @@ footer {
         }
 
         #events {
-            height: 450px;
+            height: 600px;
             background-color: #ECECEC;
             padding-top: 3em;
         }
@@ -202,6 +207,19 @@ footer {
       }
     }
 
+    @media (max-width: 508px){
+        #events {
+            height: 750px;
+        }
+      }
+
+      @media (max-width: 483px){
+        #events {
+            height: 800px;
+        }
+      }
+
+
     @media (max-width: 477px){
       #hero h1 {
         font-size: 3em;
@@ -240,7 +258,7 @@ footer {
       }
 
       #events {
-        height: 550px;
+          height: 1000px;
       }
 
       #blog {
